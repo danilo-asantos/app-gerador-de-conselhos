@@ -8,7 +8,7 @@ async function apiAdviceGenerator(){
     id = result.slip.id
     hint = result.slip.advice
     try{
-        titleAdvice.innerHTML = `ADIVCE #${id}`
+        titleAdvice.innerHTML = `ADVICE #${id}`
         advice.innerHTML = `${hint}`
     }catch(error){
         console.log(error)
